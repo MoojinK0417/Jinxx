@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div className="flex flex-col">
-          <h2 className="text-2xl font-bold text-white mb-4">M</h2>
+          <h2 className="text-2xl font-bold text-white mb-4">Jinxx</h2>
           <p className="text-gray-400 mb-6">
-            Design better digital experiences with Mobbin.
+            Design better digital experiences with Jinxx.
           </p>
           <div className="bg-gray-800 px-4 py-2 rounded-md w-max">
             <span className="text-sm text-gray-400">Featured on </span>
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
       {/* Bottom Footer */}
       <div className="max-w-7xl mx-auto px-4 mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row items-center justify-between">
         <p className="text-sm text-gray-500 mb-4 md:mb-0">
-          © Mobbin 2018–2024. All rights reserved.
+          © Jinxx 2024. All rights reserved.
         </p>
         <div className="flex space-x-6">
           <Link

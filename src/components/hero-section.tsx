@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/components/css/Home.module.css"; // Import the CSS for the hero section
+import Link from "next/link";
 
 const HeroSection: React.FC = () => {
   return (
@@ -13,8 +14,12 @@ const HeroSection: React.FC = () => {
         content weekly.
       </p>
       <div className={styles.heroButtons}>
-        <button className={styles.joinButton}>Join for free</button>
-        <button className={styles.planButton}>See our plans</button>
+        <Link href="/login">
+          <button className={styles.joinButton}>Join for free</button>
+        </Link>
+        <Link href="/pricing">
+          <button className={styles.planButton}>See our plans</button>
+        </Link>
       </div>
       <div className={styles.trustedBy}>
         <p>Trusted by design teams at</p>
